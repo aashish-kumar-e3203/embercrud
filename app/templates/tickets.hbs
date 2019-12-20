@@ -1,0 +1,11 @@
+<h1>Tickets</h1>
+<div class="flex-container">
+<div class="ticket-list">
+    {{#each this.model as |ticket|}}
+    <TicketListing @ticket={{ticket}} />
+    {{/each}}
+</div>
+<div class="ticket-detail">
+    <h1>Ticket details will come here</h1>
+</div>
+</div>

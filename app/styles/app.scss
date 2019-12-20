@@ -1,0 +1,24 @@
+.card{
+  border: 1px solid #d0d7df;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  background-color: #f6f7f9;
+  & div{
+    padding: 5px;
+  }
+}
+
+.menu{
+  background: #608ce4;
+  font-size: 38px;
+  padding: 12px;
+  & a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.flex-container {
+  display: flex;
+}
